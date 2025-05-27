@@ -180,7 +180,8 @@ const workExperiences = {
     {
       role: "Bangkit led by Google, Goto, and Traveloka ",
       company: "Google, Goto, and Traveloka",
-      companylogo: require("./assets/images/bangkit.jpg"),
+      companylogo: require("./assets/images/bangkitImg.jpg"),
+      imageAlt: "Bangkit Logo",
       date: "September 2024 – Desember 2024",
       desc: "",
       descBullets: [
@@ -281,8 +282,8 @@ const achievementSection = {
       title: "Bangkit Machine Learning Cohort",
       subtitle:
         "Graduated from Bngkit machine learning path with an average score of 86.40 and predicate A",
-      image: require("./assets/images/bangkit.jpg"),
-      imageAlt: "Google Code-In Logo",
+      image: require("./assets/images/bangkitImg.jpg"),
+      imageAlt: "Bangkit Logo",
       footerLink: [
         {
           name: "Certification",
@@ -303,7 +304,7 @@ const achievementSection = {
       subtitle:
         "Volunteer Equipment & Logistics Division.",
       image: require("./assets/images/kerasImg.png"),
-      imageAlt: "Google Assistant Action Logo",
+      imageAlt: "Keras Logo",
       footerLink: [
         {
           name: "Certification",
