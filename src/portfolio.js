@@ -100,10 +100,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "SQL-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    // {
-    //   skillName: "aws",
-    //   fontAwesomeClassname: "fab fa-aws"
-    // },
+    {
+      skillName: "Kotlin",
+      fontAwesomeClassname: "fab fa-android"
+    },
     {
       skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
