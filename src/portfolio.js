@@ -3,7 +3,8 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/splashAnimation"; 
+import BangkitImg from "./assets/images/bangkitImg.jpg";
 
 // Splash Screen
 
@@ -282,7 +283,7 @@ const achievementSection = {
       title: "Bangkit Machine Learning Cohort",
       subtitle:
         "Graduated from Bngkit machine learning path with an average score of 86.40 and predicate A",
-      image: require("./assets/images/bangkitImg.jpg"),
+      image: require(BangkitImg),
       imageAlt: "Bangkit Logo",
       footerLink: [
         {
