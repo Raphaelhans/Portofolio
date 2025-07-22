@@ -25,7 +25,7 @@ export default function Greeting() {
               >
                 {" "}
                 {greeting.title}{" "}
-                <span className="wave-emoji"><img alt="test" src={require("../../assets/images/Waving.gif")} width={120} height={120} className="gif-wave"></img></span>
+                <span className="wave-emoji"><img alt="test" src={require("../../assets/images/goodbye.png")} width={120} height={120} className="gif-wave"></img></span>
               </h1>
               <p
                 className={
