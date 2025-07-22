@@ -1,8 +1,7 @@
 import React, {useContext} from "react";
 import {Fade} from "react-reveal";
-import emoji from "react-easy-emoji";
 import "./Greeting.scss";
-import landingPerson from "../../assets/lottie/landingPerson";
+import waving from "../../assets/lottie/waving";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
@@ -25,7 +24,7 @@ export default function Greeting() {
               >
                 {" "}
                 {greeting.title}{" "}
-                <span className="wave-emoji"><img alt="test" src={require("../../assets/images/goodbye.png")} width={120} height={120} className="gif-wave"></img></span>
+                <span className="wave-emoji"><img alt="test" src={require("../../assets/images/goodbye.png")} className="gif-emoji"></img></span>
               </h1>
               <p
                 className={
@@ -54,7 +53,7 @@ export default function Greeting() {
           </div>
           <div className="greeting-image-div">
             {illustration.animated ? (
-              <DisplayLottie animationData={landingPerson} />
+              <DisplayLottie animationData={waving} />
             ) : (
               <img
                 alt="man sitting on table"
