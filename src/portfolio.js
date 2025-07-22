@@ -4,7 +4,6 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; 
-import BangkitImg from "./assets/images/bangkitImg.jpg";
 
 // Splash Screen
 
@@ -283,7 +282,7 @@ const achievementSection = {
       title: "Bangkit Machine Learning Cohort",
       subtitle:
         "Graduated from Bngkit machine learning path with an average score of 86.40 and predicate A",
-      image: require(BangkitImg),
+      image: require("./assets/images/bangkitImg.jpg"),
       imageAlt: "Bangkit Logo",
       footerLink: [
         {
